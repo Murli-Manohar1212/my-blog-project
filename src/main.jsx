@@ -30,7 +30,7 @@ const router = createBrowserRouter(
 )
 
 ReactDOM.createRoot(document.getElementById('root')).render(
-  <HashRouter>
+  
     <RouterProvider router={router} />
-  </HashRouter>,
+  
 )
